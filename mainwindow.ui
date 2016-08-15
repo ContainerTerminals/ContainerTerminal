@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1900</width>
+    <height>1100</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>1850</width>
+      <height>1050</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="OperationalOverview" name="Operations">
+     <attribute name="title">
+      <string>Operations</string>
+     </attribute>
+    </widget>
+    <widget class="ScheduleOverview" name="Schedule">
+     <attribute name="title">
+      <string>Schedule</string>
+     </attribute>
+    </widget>
+    <widget class="PerformanceIndicators" name="Performance">
+     <attribute name="title">
+      <string>Performance</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>OperationalOverview</class>
+   <extends>QWidget</extends>
+   <header>operationaloverview.hpp</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ScheduleOverview</class>
+   <extends>QWidget</extends>
+   <header>scheduleoverview.hpp</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PerformanceIndicators</class>
+   <extends>QWidget</extends>
+   <header>performanceindicators.hpp</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

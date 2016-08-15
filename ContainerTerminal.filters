@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Visual">
+      <UniqueIdentifier>{c5bbd221-4dc1-4a60-b49a-001da9608436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{588e4fbc-bc09-4012-b0bd-c3a4a1e01220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra">
+      <UniqueIdentifier>{22fcbeeb-2eb4-4016-959f-2e8433b806d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visual\Release">
+      <UniqueIdentifier>{af3b88f3-c0ed-4c2e-87e1-3f6c01d24020}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Visual\Release\Debug">
+      <UniqueIdentifier>{9e599208-72be-4319-9035-c7d2a32782b2}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{371e3213-f645-426c-88d1-e67c0bf50782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visual\Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Visual\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Debug\moc_qcustomplot.cpp">
+      <Filter>Visual\Release\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_qcustomplot.cpp">
+      <Filter>Visual\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_mainwindow.cpp">
+      <Filter>Visual\Release\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_mainwindow.cpp">
+      <Filter>Visual\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_operationaloverview.cpp">
+      <Filter>Visual\Release\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_operationaloverview.cpp">
+      <Filter>Visual\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_performanceindicators.cpp">
+      <Filter>Visual\Release\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_performanceindicators.cpp">
+      <Filter>Visual\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_scheduleoverview.cpp">
+      <Filter>Visual\Release\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_scheduleoverview.cpp">
+      <Filter>Visual\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="containerLocation.cpp">
+      <Filter>Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="qcustomplot.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="types.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="saveTextToFile.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="scheduleoverview.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="stochastic.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="operationaloverview.cpp">
+      <Filter>Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="performanceindicators.cpp">
+      <Filter>Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="milp.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="testCore.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="experiment.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="mainwindow.ui">
+      <Filter>Visual\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="alternateLayout.ui">
+      <Filter>Visual\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="operationaloverview.ui">
+      <Filter>Visual\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="performanceindicators.ui">
+      <Filter>Visual\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="scheduleoverview.ui">
+      <Filter>Visual\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>Visual</Filter>
+    </CustomBuild>
+    <CustomBuild Include="operationaloverview.hpp">
+      <Filter>Visual\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="performanceindicators.hpp">
+      <Filter>Visual\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="scheduleoverview.hpp">
+      <Filter>Visual\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qcustomplot.h">
+      <Filter>Utilities</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Todo.txt" />
+    <Text Include="Overview.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="containerLocation.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_alternateLayout.h">
+      <Filter>Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_operationaloverview.h">
+      <Filter>Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_performanceindicators.h">
+      <Filter>Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_scheduleoverview.h">
+      <Filter>Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="saveTextToFile.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="stochastic.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="milp.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="testCore.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="experiment.h">
+      <Filter>Visual\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="performanceindicators.cpp.temp">
+      <Filter>Visual</Filter>
+    </None>
+  </ItemGroup>
+</Project>
